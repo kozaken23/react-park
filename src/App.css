@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 100vh;
+}
+
+.header {
+    margin: 0px;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background: #9cd5ea;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar {
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    margin-left: 30px;
+    width: 10px;
+    border-radius: 5px;
+    width: 150px;
+    -webkit-text-stroke: 0.5px #dfdbdb;
+    font-size: 24px;
+}
+
+.title {
+    margin: 7px 5px 0px 0px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+img.icon{
+    margin-top: 0px;;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid #ccc; */
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 1px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: relative;
+}
+
+.attraction {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* 収める */
+    pointer-events: none;
+    /* クリックはセルに通す */
+}
+
+.menu {
+    width: 200px;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.select-attraction-bar {
+    width: 250px;
+}
+
+.select-attraction {
+    margin: 10px;
+}
