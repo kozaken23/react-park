@@ -10,6 +10,7 @@ Reactで遊園地のアトラクションを配置し、
 ## 起動方法
 ### React
 npm install
+<br>
 npm run dev
 
 ![システム構成図](./image.png)
