@@ -203,7 +203,7 @@ export default function App() {
     setMode("place");
   }
 
-  // ★ 本当の「上書き保存」
+  // 本当の「上書き保存」
   const handleExport = async () => {
     let data = "";
 
